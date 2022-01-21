@@ -1,0 +1,80 @@
+* {box-sizing: border-box; margin: 0;}
+
+header {height: 200px; background-image: url(https://cmyk-arq.es/wp-content/uploads/2020/10/cmyk_arquitectos_planos_casas_01.jpg); 
+	background-size: cover; background-position: center; ;  
+	display: flex; justify-content: center; justify-items: center;  align-items: center;}
+
+
+/*Inicio de Titulo*/
+
+header h1 {color: yellow; text-shadow: 3px 3px 3px black; font-style: italic;}
+header h2 { color: white; text-shadow: 3px 3px 3px black; }
+header div{ ; text-align: center; background-size: 100% 100% ;}
+
+
+.titulo {color: red; font-style: italic; font-family: arial, sans-serif; 
+		text-shadow: 3px 3px 3px black; font-size: 1.5em; 
+		text-align: center;}
+
+/*FIN de Titulo*/
+
+
+/*Inicio de Cabecera*/
+
+nav a {text-decoration: none; color: white; text-shadow: 2px 2px 2px black;}
+nav {background-color: red; padding: 20px; display: flex; justify-content: space-around;}
+nav a:hover {font-weight: bold; background-color: yellow;}
+
+nav .titulo {color:brown;}
+ 
+ /*FIN de cabecera*/
+
+
+/*Inicio de texto en columnas*/
+
+#contenedor-servicios {display: flex; padding: 10px;}
+
+#izquierda, #derecha {width: 50%}
+
+/*Final de texto en columnas*/
+
+
+ /*Inicio de obras*/
+
+ #Obras {background-color: burlywood;}
+
+#contenedor-obras {  padding: 10px; flex-wrap: wrap; 
+display: flex;}
+
+.obras {width: 33%; text-align: center; 
+			}
+ .obras img {width: 33%; padding: 10px; }
+
+/*final de obras*/
+
+
+
+ /*pie */
+
+footer {background-color: grey; color: white; 
+  text-align: center; padding-top: 20px;}
+  
+  #contenedor-info {display: flex; 
+  	flex-wrap: wrap; border-top: 2px solid white; 
+  	justify-content: space-around;}
+
+  	footer div {width: 50%%; padding: 20px; text-align: center}
+
+/* final del pie */
+
+/* Inicio de cuestionario */
+
+ #contacto form  {background-color: lightgrey; border-radius: 30px; 
+				padding: 20px; text-align: left;}
+
+#contacto {padding-left:100px ; padding-right: 100px; padding-bottom: 20px;}
+
+input {width: 100%; padding: 10px; border-radius: 5px; margin-bottom: 10px;
+		border: 1px solid lightgrey; font-size: 1.2em; font-family: arial, sans-serif;}
+
+label {width: 20%; display: block; font-weight: bold; color: brown; font-size: 1.2em;}
